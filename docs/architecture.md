@@ -6,13 +6,13 @@ The Compliance-Aware Multi-Agent System is designed to provide intelligent data 
 ## Architecture Components
 
 ### 1. Agent System
+```
 EnhancedComplianceAwareAgentSystem (Orchestrator)
 ├── RetrievalAgent (Data Acquisition)
 ├── EnhancedReasoningAgent (Intelligent Analysis)
 ├── EnhancedComplianceAgent (Regulatory Validation)
 └── EnhancedMemorySystem (Learning & Persistence)
-
-text
+```
 
 ### 2. Data Flow
 1. **Query Input** → User submits query
