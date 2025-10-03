@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 # Compliance-Aware Multi-Agent System
 
 A sophisticated multi-agent system for compliance-aware data exploration, featuring intelligent reasoning, regulatory validation, and persistent memory for continuous learning. 
@@ -173,4 +174,4 @@ compliance-multi-agent/
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
