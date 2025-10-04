@@ -65,25 +65,9 @@ The following diagram shows how the agents interact:
 
 ### Running the System
 
-#### Basic Usage (Python)
-```python
-from src.main import EnhancedComplianceAwareAgentSystem
-
-# Initialize the system
-system = EnhancedComplianceAwareAgentSystem()
-
-# Process a sample query
-result = system.process_query("What's the weather in London?")
-
-# View results
-print(result)
-
-# Get system analytics
-analytics = system.get_system_analytics()
-print(f"System Health: {analytics['system_health']['status']}")
-```
 
 #### Command Line Interface
+
 ```bash
 # Run example queries
 python run_system.py examples
@@ -139,13 +123,6 @@ python examples/performance_test.py
 - **Data Retention**: Checks for data expiration.
 - **Audit Trail**: Logs queries, outcomes, and violations for traceability.
 
-## 📊 System Analytics
-
-Monitor system performance:
-```python
-analytics = system.get_system_analytics()
-print(f"Success Rate: {analytics['system_health']['success_rate']}%")
-```
 
 ## 📁 Project Structure
 
@@ -164,13 +141,6 @@ compliance-multi-agent/
 └── run_system.py              # Main entry point
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Commit changes (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
 
 ## 📄 License
 
